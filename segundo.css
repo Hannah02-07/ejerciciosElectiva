@@ -1,0 +1,113 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f4f4f4;
+  }
+  
+  /* Encabezado */
+  .main-header {
+    background-color: #336699;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .main-header h1 {
+    margin: 0;
+  }
+  
+  .main-header nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .main-header nav ul li {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  .main-header nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .main-header .logo {
+    width: 50px;
+    height: auto;
+    vertical-align: middle;
+  }
+  
+  /* Botón estilo general */
+  .btn {
+    background-color: #336699;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px 0;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1em;
+    transition: background-color 0.3s;
+  }
+  
+  .btn:hover {
+    background-color: #25486d;
+  }
+  
+  /* Contenido principal */
+  .main-content {
+    padding: 20px;
+  }
+  
+  /* Sección de propósito */
+  .purpose-section {
+    background-color: #e2ebf2;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+  }
+  
+  .info-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .info-table th, .info-table td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: left;
+  }
+  
+  /* Formulario de contacto */
+  .contact-section {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .contact-section label {
+    display: block;
+    margin-top: 10px;
+  }
+  
+  .contact-section input, .contact-section textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* Pie de página */
+  .main-footer {
+    background-color: #336699;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+  }
+  
